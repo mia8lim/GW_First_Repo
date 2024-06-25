@@ -1,32 +1,33 @@
-nav {
-  height: 50px;
-  background-color: lightgrey;
-}
-.inline-block {
-  padding: 15px;
-  display: inline-block;
-}
-.left {
-  float: left;
-  height: 500px;
+.block_element {
+  width: 355px;
   background-color: lightblue;
-  width: 30%;
+  margin-left: auto;
+  margin: 0 auto;
   text-align: center;
-}
-.right {
-  float: left;
-  background-color: lightgreen;
-  height: 500px;
-  width: 70%;
-  text-align: center;
+  padding: 35px;
 }
 
-.card {
-  display: inline-block;
-  background-color: #C6C6C6;
-  border-radius: 5px;
-  height: 200px;
-  width: 150px;
-  margin: 35px;
-  margin-top: 50px;
+section {
+  background-color: grey;
+  padding: 25px;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img {
+  width: 200px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 4%;
+  -webkit-appearance: none;
+  /* max-width: 330px; */
+  box-sizing: border-box;
+}
+h3 {
+  margin: 10px 0px;
+}
+.submit {
+  margin-top: 20px;
 }
